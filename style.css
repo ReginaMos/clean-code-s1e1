@@ -27,7 +27,8 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.new-task__item, .tasks__item {
+.new-task__item,
+.tasks__item {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -39,10 +40,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 button {
@@ -68,7 +71,8 @@ h3,
   margin: 0;
   text-transform: uppercase;
 }
-.tasks__item-input, .new-task__item-input {
+.tasks__item-input,
+.new-task__item-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -80,7 +84,8 @@ h3,
   font-family: Lato, sans-serif;
   color: #888;
 }
-.tasks__item-input:focus, .new-task__item-input:focus {
+.tasks__item-input:focus,
+.new-task__item-input:focus {
   color: #333;
 }
 
